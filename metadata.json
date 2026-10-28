@@ -1,0 +1,6 @@
+{
+  "name": "대실 쏙쏙 - 대실역·강정보 핵심 정보 & 쉬운 길찾기",
+  "description": "대구 대실역·강정보·디아크 일대 꼭 필요한 핵심 정보(주차, 최적 출구, 운영시간, 꿀팁)와 길치도 헤매지 않는 쉬운 길찾기 가이드",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

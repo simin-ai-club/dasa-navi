@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>대실 쏙쏙 - 대실역·강정보 핵심 정보 & 쉬운 길찾기</title>
+    <meta name="description" content="대구 대실역·강정보·디아크 일대 꼭 필요한 핵심 정보(주차, 최적 출구, 운영시간, 꿀팁)와 길치도 헤매지 않는 쉬운 길찾기 가이드" />
+
+    <!-- PWA & Web App Meta Tags -->
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="대실쏙쏙" />
+    <meta name="application-name" content="대실쏙쏙" />
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+
+    <!-- Open Graph & Social Cards -->
+    <meta property="og:title" content="대실 쏙쏙 - 대실역·강정보 핵심 정보 & 쉬운 길찾기" />
+    <meta property="og:description" content="대구 대실역·강정보·디아크 일대 꼭 필요한 핵심 정보(주차, 최적 출구, 운영시간, 꿀팁)와 길치도 헤매지 않는 쉬운 길찾기 가이드" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icon.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="대실 쏙쏙 - 대실역·강정보 핵심 정보 & 쉬운 길찾기" />
+    <meta name="twitter:description" content="대구 대실역·강정보·디아크 일대 꼭 필요한 핵심 정보와 쉬운 길찾기 가이드" />
+
+    <!-- External Leaflet and Pretendard Font Styles -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased font-sans selection:bg-blue-100 selection:text-blue-900 overscroll-none">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
